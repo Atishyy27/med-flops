@@ -1,0 +1,6 @@
+torch
+torchvision
+pandas
+Pillow
+matplotlib
+flwr
