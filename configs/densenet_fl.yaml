@@ -1,0 +1,19 @@
+# configs/densenet_fl.yaml
+
+model:
+  name: "DenseNet-121"
+  pretrained: true
+
+training:
+  epochs: 25
+  batch_size: 32
+  learning_rate: 0.0003
+
+federated:
+  num_clients: 3
+  num_rounds: 10
+  strategy: "FedAvg"
+
+data:
+  manifest_path: "data/manifest.csv"
+  img_size: 224

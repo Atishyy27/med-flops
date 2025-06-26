@@ -1,6 +1,9 @@
-torch
-torchvision
+pyyaml
+flower        # if using Flower for FL simulation
+torch>=1.10.0
+torchvision>=0.11.0
+numpy
 pandas
-Pillow
+tqdm
+scikit-learn
 matplotlib
-flwr
